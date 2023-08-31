@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    margin: 0px auto;
+    padding-top: 100px;
+    width: 70%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    font-family: inherit;
+    padding: 5px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+#lista-tarefas {
+    width: 240px;
+    margin: 30px auto 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
